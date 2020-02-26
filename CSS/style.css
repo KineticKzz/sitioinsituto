@@ -7,6 +7,7 @@ body {
     background-color: #DBE5FF;
 }
     /*LAYOUT*/
+        /*ESTILOS HEADER*/
 header{
     display: flex;
     width: 100%;
@@ -15,105 +16,192 @@ header{
     /*position: absolute;
     top: 40px;*/
 }
-.contenedor{
+#contenedor{
     display: flex;
     flex-direction: column;
-    height: 1350px;
+    height: 1400px;
     width: 100%;
 }
-.logoytitulo{
+            /*ESTILOS LOGO Y TITULO*/
+#logoytitulo{
     display: flex;
     flex-direction: row;
     width: 50%;
     float: left;
 }
-.logo{
+#logoytitulo .logo{
     width: 150px;
     height: 100%;
     margin-left: 40px;
 }
-img{
-    width: 150px;
-    height: 150px;
-}
-h1{
-    font-size: 50px;
+.titulo h1{
+    font-size: 40px;
     margin-left: 0px;
 }
-.titulo{
-    display: flex;
-    justify-content: left;
+#logoytitulo .titulo{
+    position: relative;
+    top: 20%;
     height: 100%;
     width: 100%;
 }
-.iconos{
+            /*ESTILOS ICONOS*/
+#iconos{
+    display: flex;
+    position: relative;
+    left: 18%;
+    height: 150px;
+    
+}
+#iconos .enlaces{
+    margin: 90px 20px 0px 20px;
+    max-height: 44px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+        /*ESTILOS MENU*/
+#contenedor .divmenu{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #091534;
+}
+.menu li {
+    float: left;
+    list-style-type: none;
+    background-color: #091534;
+    width: 20%;
+    border: none;
+    padding:0px;
+}
+.menu a{
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: block;
+    padding: 17px;
+    padding-right: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu a:link {
+    text-decoration: none;
+    color: #DBE5FF;
+}
+
+.menu a:hover {
+    background-color: #DBE5FF;
+    color: #091534;
+}
+.menu {
+    float: left;
     display: flex;
     flex-direction: row;
-    width: 50%;
-    height: 150px;
-}
-.enlaces{
-    margin: 90px 20px 0px 20px;
-}
-.clasevideo{
-    display: flex;
-    width: 100%;
-}
-.imginicio{
-    width: 100%;
-    height: 700px;
-}
-.menuinicio{
-    display: flex;
-    width: 100%;
-    height: 300px;
-}
-.divcursos, .divoferta, .divnoticias, .divproyectos, .divcontacto, .divgaleria{
-    width: 16.6666666666667%;
-    height: 100%;
-}
-#hexagono{
-    height: 8.5em;
-    width: 14.72em;
-    position: relative;
-    top: 80px;
-    margin: auto;
-}
-#hexagono:before {
-    background: inherit;
-    content: '';
-    height: 100%;
-    position: absolute;
-    transform: rotate(-60deg);
-    margin: auto;
-    width: 100%;
-}
-#hexagono::after {
-    background: inherit;
-    content: '';
-    height: 100%;
-    position: absolute;
-    transform: rotate(60deg);
-    width: 100%;
-}
-.divcursos p{
     margin: 0px;
-    position: relative;
+    padding: 0px;
+    border: none;
+    width: 50%;
+    height: 50px;
 }
-#rectangulo{
-    width: 80%;
-    position: relative;
-    top: 48px;
+.menu a:visited {
+    color:black
+}
+        /*ESTILOS VIDEO*/
+#clasevideo{
+    display: flex;
+    width: 100%;
+}
+.galeria{
+    width: 90%;
     margin: auto;
-    height: 13em;
-    border-radius: 40px;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+    /*ESTILOS DE LA GALERIA*/
+#galeria p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.galeria li{ 
+    margin: auto;
+}
+.galeria img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid black
+}
+.galeria img:hover{
+    width: 220px;
+    height: 160px;
+}
+    /*ESTILOS MODAL*/
+.imagengrande{
+    display: none;
+}
+.imagengrande:target{
+    display: block;
+    position: fixed;
+    background: rgb(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.imagengrande p{
+    font-size: 30px;
+    color: #DBE5FF;
+    text-align: center;
+    margin: 15px 0px;
+}
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.imagen a{
+    color: #DBE5FF;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0px 10px;
+    flex-shrink: 2; /*Sirve para que encaje la imagen y que no choque con el simbolo*/
+}
+.imagen a:nth-child(2){
+    margin: 0px;
+    height: 100%;
+}
+.imagen img {
+    width: 900px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid white;
+    box-sizing: border-box;
+}
+.cerrar{
+    display: block;
+    background-color: #DBE5FF;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+    color: #091534;
+}
+    /*ESTILOS PIE DE PAGINA*/
 #pie {
     width: 100%;
     height: 200px;
-}
-p{
-    text-align: center;
 }
 #pie .copyright{
     float: right;
@@ -121,19 +209,40 @@ p{
     margin-top: 40px;
 }
     /*ESTETICA*/
-#hexagono, #hexagono::before, #hexagono::after, #rectangulo{
-    border: 1px solid #678FFE;
-    border-top: none;
-    border-bottom: none;
-    background-color: #0247FE;
-}
-#hexagono, #rectangulo{
-    opacity: 0.7;
-}
-.divcursos p{
-    font-size: 55px;
-}
+
 #pie{
     background-color: #091534;
     color: #DBE5FF;
+    text-align: center;
+}
+#galeria p{
+    color: #091534;
+    text-transform: uppercase;
+}
+.enlaces a:hover{
+    cursor: pointer;
+}
+#facebook{
+    color: #3C5A9A;
+}
+#facebook:visited{
+    color: rgb(0, 0, 0);
+}
+#twitter{
+    color: #2DAAE4;
+}
+#twitter:visited{
+    color: rgb(0, 0, 0);
+}
+#youtube{
+    color: #FF0015;
+}
+#youtube:visited{
+    color: rgb(0, 0, 0);
+}
+#instagram{
+    color: #A843A3;
+}
+#instagram:visited{
+    color: rgb(0, 0, 0);
 }
