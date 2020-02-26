@@ -1,0 +1,51 @@
+/*### ESTILOS COMUNES ###*/
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*### ESTILOS PORTADA ###*/
+.hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_imagen{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    filter: blur(3px);
+}
+.hero_texto{
+    padding:0 3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+.hero_boton {
+    display: inline-block;
+    width: 40%;
+    height: 70px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #DBE5FF;
+    color: #091534;
+    border-radius: 0px 30px 0px 30px;
+    opacity: 0.6;
+    border-color: #DBE5FF;
+}
+.hero_frase {
+    font-size: 25px;
+    color: #091534;
+}
+.hero_boton:hover {
+    cursor: pointer;
+    background-color: #091534;
+    color: #DBE5FF;
+}
