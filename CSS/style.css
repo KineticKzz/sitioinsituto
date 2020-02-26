@@ -1,0 +1,139 @@
+/*### ESTILOS COMUNES ###*/
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #DBE5FF;
+}
+    /*LAYOUT*/
+header{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    /*position: absolute;
+    top: 40px;*/
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 1350px;
+    width: 100%;
+}
+.logoytitulo{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    float: left;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+    margin-left: 40px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+h1{
+    font-size: 50px;
+    margin-left: 0px;
+}
+.titulo{
+    display: flex;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 150px;
+}
+.enlaces{
+    margin: 90px 20px 0px 20px;
+}
+.clasevideo{
+    display: flex;
+    width: 100%;
+}
+.imginicio{
+    width: 100%;
+    height: 700px;
+}
+.menuinicio{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.divcursos, .divoferta, .divnoticias, .divproyectos, .divcontacto, .divgaleria{
+    width: 16.6666666666667%;
+    height: 100%;
+}
+#hexagono{
+    height: 8.5em;
+    width: 14.72em;
+    position: relative;
+    top: 80px;
+    margin: auto;
+}
+#hexagono:before {
+    background: inherit;
+    content: '';
+    height: 100%;
+    position: absolute;
+    transform: rotate(-60deg);
+    margin: auto;
+    width: 100%;
+}
+#hexagono::after {
+    background: inherit;
+    content: '';
+    height: 100%;
+    position: absolute;
+    transform: rotate(60deg);
+    width: 100%;
+}
+.divcursos p{
+    margin: 0px;
+    position: relative;
+}
+#rectangulo{
+    width: 80%;
+    position: relative;
+    top: 48px;
+    margin: auto;
+    height: 13em;
+    border-radius: 40px;
+}
+#pie {
+    width: 100%;
+    height: 200px;
+}
+p{
+    text-align: center;
+}
+#pie .copyright{
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+    /*ESTETICA*/
+#hexagono, #hexagono::before, #hexagono::after, #rectangulo{
+    border: 1px solid #678FFE;
+    border-top: none;
+    border-bottom: none;
+    background-color: #0247FE;
+}
+#hexagono, #rectangulo{
+    opacity: 0.7;
+}
+.divcursos p{
+    font-size: 55px;
+}
+#pie{
+    background-color: #091534;
+    color: #DBE5FF;
+}
