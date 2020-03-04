@@ -1,0 +1,226 @@
+/*### ESTILOS COMUNES ###*/
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #DBE5FF;
+}
+   /*LAYOUT COMUN*/
+/*ESTILOS HEADER*/
+header{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    /*position: absolute;
+    top: 40px;*/
+    }
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 3000px;
+    width: 100%;
+    }
+    /*ESTILOS LOGO Y TITULO*/
+#logoytitulo{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    float: left;
+}
+#logoytitulo .logo{
+   width: 150px;
+   height: 100%;
+    margin-left: 40px;
+}
+    .titulo h1{
+    font-size: 40px;
+    margin-left: 0px;
+}
+#logoytitulo .titulo{
+    position: relative;
+    top: 20%;
+    height: 75%;
+    width: 100%;
+}
+    /*ESTILOS ICONOS*/
+#iconos{
+    display: flex;
+    position: relative;
+    left: 18%;
+    height: 150px;
+}
+#iconos .enlaces{
+    margin: 90px 20px 0px 20px;
+    max-height: 44px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+    /*ESTILOS MENU*/
+#contenedorcentro .divmenu{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #091534;
+}
+.menu li {
+    float: left;
+    list-style-type: none;
+    background-color: #091534;
+    width: 20%;
+    border: none;
+    padding:0px;
+}
+.menu a{
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: block;
+    padding: 17px;
+    padding-right: 0;
+    margin: 0;
+    text-align: center;
+}
+        
+.menu a:link {
+    text-decoration: none;
+    color: #DBE5FF;
+}
+        
+.menu a:hover {
+    background-color: #DBE5FF;
+    color: #091534;
+    }
+.menu {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 50%;
+    height: 50px;
+    }
+.menu a:visited {
+    color:white;
+}
+    /*ESTILOS PIE DE PAGINA*/
+#pie {
+    width: 100%;
+    height: 200px;
+}
+#pie .copyright{
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;    
+}
+    /*ESTETICA*/
+#pie{
+    background-color: #091534;
+    color: #DBE5FF;
+    text-align: center;
+        }
+   /*LAYOUT CENTRO*/
+#contenedorcentro {
+    display: flex;
+    flex-direction: column;
+    height: 3000px;
+    width: 100%;
+    }
+.divcentral {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    float: left;
+    display: flex;
+}
+.divizquierdo {
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.divcentro {
+    float: left;
+    width: 60%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+}
+.publicidadcentro {
+    float: left;
+    width: 20%;
+    height: 200px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    position:sticky;
+}
+.navegacioncentro {
+    height: 120px;
+    display: inline-block;
+    position: sticky;
+    top: 50%;
+}
+.navegacioncentro li {
+    margin:10px;
+}
+.textocentro {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+.textocentro h1 {
+    text-align: center;
+}
+.textocentro p {
+    margin: 10px;
+}
+.imagenescuela {
+    display: block;
+}
+/* Estilos Centro */
+.navegacioncentro a{
+    text-decoration: none;
+}
+.navegacioncentro {
+    list-style-type: none;
+    color: #091534;
+}
+.navegacioncentro a:visited {
+    color: #091534;
+}
+.navegacioncentro a:link {
+    color: #091534;
+}
+.navegacioncentro a:hover {
+    font-size: 25px;
+    font-display: border;
+}
+.publicidadcentro a{
+    height: 20%;
+    width: 90%;
+    margin-bottom: 1%;
+    margin: auto;
+    display: block;
+}
+.publicidadcentro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 2px solid #091534;
+}
+.publicidadcentro img:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    height: 102%;
+    width: 102%;
+}
