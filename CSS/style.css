@@ -93,7 +93,7 @@ header{
     background-color: #DBE5FF;
     color: #091534;
 }
-.menu {
+.menu{
     float: left;
     display: flex;
     flex-direction: row;
@@ -209,7 +209,9 @@ header{
     margin-top: 40px;
 }
     /*ESTETICA*/
-
+.divmenu{
+  background-color: #091534;  
+}
 #pie{
     background-color: #091534;
     color: #DBE5FF;
@@ -245,4 +247,159 @@ header{
 }
 #instagram:visited{
     color: rgb(0, 0, 0);
+}
+
+
+
+
+/*######CONTACTO######*/
+/*LAYOUT GENERAL*/
+#contenedorC{
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.rellenoC{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3%;
+}
+.formularioC{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.publicidadC{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 200px;
+    margin: auto;
+    border: 1px solid black;
+}
+    /* FORMULARIO*/
+input[type=text]{
+    padding: 10px;
+    display: flex;
+    width: 70%;
+}
+input[type=email]{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    width: 70%;
+}
+.generoC, .cursandoC{
+    display: inline-block;
+    flex-direction: column;
+    width: 40%;
+    margin: 0px;
+}
+.genero1C{
+    margin-top: 10px;
+}
+#generoC, #cursandoC{
+    display: flex;
+    margin-bottom: 7px;
+    margin: 7px 0px 40px 2px;
+    padding: 10px;
+}
+textarea{
+    width: 70%;
+    height: 90px;
+    margin-bottom: 20px;
+}
+.botonesC{
+    width: 70%;
+    margin-left: 200px;
+}
+input[type=submit],input[type=reset]{
+    width: 30%;
+    height: 50px;
+}
+legend{
+    width: 100%;
+    height: 30px;
+}
+.numeroC{
+    width: 10%;
+    padding: 4px 10px 4px 10px;
+}
+    /*PUBLIDICAD*/
+.publicidadC a{
+    height: 20%;
+    width: 90%;
+    margin-bottom: 1%;
+    margin: auto;
+    display: block;
+}
+.publicidadC img{
+    width: 100%;
+    height: 100%;
+}
+/*ESTETICA*/
+input[type=text],input[type=email]{
+    border-radius: 10px;
+    background-color: rgba(238, 238, 238, 0.493);
+    color: #787D80;
+    border: none;
+}
+input[type=text]:focus,input[type=email]:focus,textarea:focus,#intereses:focus{
+    background-color: white;
+}
+
+textarea{
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgba(238, 238, 238, 0.493);
+    color: #787D80;
+    border: none;
+}
+
+input[type=submit],input[type=reset]{
+    background-color: #091534;
+    color: #F0FDF3;
+    border: 1px rgb(0, 92, 73) solid;
+    font-size: 18px;
+}
+input[type=submit]:hover,input[type=reset]:hover{
+    background-color: #678FFE;
+    cursor: pointer;
+    text-shadow: 1px 1px rgb(0, 107, 86);
+}
+fieldset{
+    border: 0px;
+}
+input[type=radio]{
+    cursor: pointer;
+}
+.numeroC{
+    background-color: #091534;
+    color: #E4FDF8;
+    border-radius: 20px 0px 20px 0px;
+}
+legend{
+    color:black;
+    font-size: 22px;
+}
+optgroup{
+    color: rgb(130,142,151);
+}
+option:hover{
+    background-color: rgb(42,137,251);
+}
+.publicidadC img{
+    border-radius: 30px;
+    border: 2px solid #091534;
+}
+.publicidadC img:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    height: 102%;
+    width: 102%;
 }
