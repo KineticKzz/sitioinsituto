@@ -51,16 +51,14 @@ body {
 }
 /* PARA MOVILES*/
 @media screen and (min-width: 320px) and (max-width: 425px){
-    .hero_imagen{
-        height: 525px;
-        width: 425px;
-        object-fit:cover;
-    }
     .hero_frase {
         font-size: 18px;
     }
     .hero_boton {
         font-size: 20px;
         height:50px;
+    }
+    .hero_texto {
+        padding: 0;
     }
 }
