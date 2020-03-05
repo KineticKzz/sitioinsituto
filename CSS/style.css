@@ -1,4 +1,291 @@
-/*### ESTILOS COMUNES ###*/
+/*######################RESPONSIVE MOVIL#########################*/
+/*######################RESPONSIVE MOVIL#########################*/
+/*######################RESPONSIVE MOVIL#########################*/
+@media screen and (min-width:0px) and (max-width: 425px) {
+    #iconosCentro{
+        position: absolute;
+        top: 3650px ;
+        left: 25%;
+    }
+    #logoytitulo{
+        width: 100%;
+    }
+    #logoytitulo .logo{
+        width: 75px;
+        height: 75px ;
+        margin: auto;
+    }
+    .titulo h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    #pie{
+        font-size: 10px;
+        height: 144px;
+    }
+    #youtube:visited{
+        color: white;
+    }
+    #instagram:visited{
+        color: white;
+    }
+    #facebook:visited{
+        color: white;
+    }
+    #twitter:visited{
+    color: white;
+}
+    /*##########MENU MOVIL###########*/
+    /*##########MENU MOVIL###########*/
+    /*##########MENU MOVIL###########*/
+    #divmenu{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    #divmenu li{
+        display: block;
+        float: none;
+        height: 50px;
+    }
+    .menu{
+        display: none;
+    }
+    .menumovil{
+        display: none;
+    }
+    .menumovil:target{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: #091534;
+        padding: 0px;
+        margin: 0px;
+    }
+    .menumovil a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    #menumovil .cerrarmenu{
+        display:block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #DBE5FF;
+        font-size: 28px;
+        padding: 0px;
+    }
+    .control-menu{
+        font-size: 40px;
+        color: #DBE5FF;
+        text-align: center;
+        height: 100%;
+    }
+    .control-menu a{
+        display: block;
+        height: 100%;
+    }
+    .control-menu i{
+        position: relative;
+        top: 7px;
+    }
+    /*##############FORMULARIO###################*/
+    /*##############FORMULARIO###################*/
+    /*##############FORMULARIO###################*/
+    .formularioC{
+        width: 100%;
+    }
+    .generoC, .cursandoC{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin: 7px 0px 40px 2px;
+        padding: 10px;
+    }
+    #cursandoC{
+        margin-top: 10px;
+    }
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    .publicidadC{
+        display: none;
+    }
+    .formularioC{
+        width: 100%;
+    }
+    .botonesC{
+        width: 100%;
+        margin:20px;
+        margin-left: 40px;
+    }
+    /* #####CENTRO##### */
+    .divizquierdo {
+        visibility: hidden;
+    }
+    .divcentro {
+        font-size: 15px;
+    }
+    iframe {
+        width: 150px;
+        height: 150px;
+        left: 5%;
+    }
+    .calendario {
+        width: 300px;
+        height: 500px;
+    }
+    .clase {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+
+
+
+/*######################RESPONSIVE PC#########################*/
+/*######################RESPONSIVE PC#########################*/
+/*######################RESPONSIVE PC#########################*/
+@media screen and (min-width:426px){
+    /*################HEADER##############*/
+    /*################HEADER##############*/
+    /*################HEADER##############*/
+    #iconosCentro{
+        position: relative;
+        left: 18%;
+        height: 150px;
+        font-size: 40px;
+    }
+    #logoytitulo{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        float: left;
+    }
+    #logoytitulo .logo{
+        width: 200px;
+        height: 150px;
+        margin-left: 40px;
+    }
+    .titulo h1{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    #logoytitulo .titulo{
+        position: relative;
+        top: 20%;
+        height: 75%;
+        width: 100%;
+    }
+
+
+
+
+
+    /*#######################MENU###################*/
+    /*#######################MENU###################*/
+    /*#######################MENU###################*/
+    #menu li {
+        float: left;
+        list-style-type: none;
+        background-color: #091534;
+        width: 20%;
+        border: none;
+        padding:0px;
+    }
+    #menu a{
+        font-size: 15px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        display: block;
+        padding: 17px;
+        padding-right: 0;
+        margin: 0;
+        text-align: center;
+    }
+    #menu{
+        float: left;
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        width: 50%;
+        height: 50px;
+    }
+    .control-menu{
+        display: none;
+    }
+    #menumovil{
+        display: none;
+    }
+
+
+    /*######################FORMULARIO########################*/
+    /*######################FORMULARIO########################*/
+    /*######################FORMULARIO########################*/
+    .generoC, .cursandoC{
+        display: inline-block;
+        flex-direction: column;
+        width: 40%;
+        margin: 0px;
+    }
+    .genero1C{
+        margin-top: 10px;
+    }
+    #generoC, #cursandoC{
+        display: flex;
+        margin-bottom: 7px;
+        margin: 7px 0px 40px 2px;
+        padding: 10px;
+    }
+    .formularioC{
+        width: 60%;
+    }
+
+
+
+
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    .publicidadC{
+        display: flex;
+    }
+    legend{
+        margin-bottom: 15px;
+    }
+    .botonesC{
+        width: 70%;
+        margin-left: 200px;
+    }
+
+
+
+/*#####################ESTILOS PIE DE PAGINA####################*/
+/*#####################ESTILOS PIE DE PAGINA####################*/
+/*#####################ESTILOS PIE DE PAGINA####################*/
+    #pie{height: 200px;}
+} /*###########FIN RESPONSIVE PC##############*/
+/*###########FIN RESPONSIVE PC##############*/
+/*###########FIN RESPONSIVE PC##############*/
+
+
+
+
+
+
+/*######################ESTILOS COMUNES#########################*/
+/*######################ESTILOS COMUNES#########################*/
+/*######################ESTILOS COMUNES#########################*/
 body {
     margin: 0px;
     height: 100%;
@@ -6,8 +293,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #DBE5FF;
 }
-   /*LAYOUT COMUN*/
-/*ESTILOS HEADER*/
+    /*###LAYOUT###*/
+    /*###LAYOUT###*/
+    /*###LAYOUT###*/
+        /*###ESTILOS HEADER###*/
+        /*###ESTILOS HEADER###*/
+        /*###ESTILOS HEADER###*/
 header{
     display: flex;
     width: 100%;
@@ -15,117 +306,333 @@ header{
     margin-top: 30px;
     /*position: absolute;
     top: 40px;*/
-    }
-#contenedor {
+}
+            /*###ESTILOS ICONOS###*/
+            /*###ESTILOS ICONOS###*/
+            /*###ESTILOS ICONOS###*/
+#iconosCentro {
     display: flex;
-    flex-direction: column;
-    height: 3000px;
-    width: 100%;
-    }
-    /*ESTILOS LOGO Y TITULO*/
-#logoytitulo{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    float: left;
 }
-#logoytitulo .logo{
-   width: 150px;
-   height: 100%;
-    margin-left: 40px;
-}
-    .titulo h1{
-    font-size: 40px;
-    margin-left: 0px;
-}
-#logoytitulo .titulo{
-    position: relative;
-    top: 20%;
-    height: 75%;
-    width: 100%;
-}
-    /*ESTILOS ICONOS*/
-#iconos{
-    display: flex;
-    position: relative;
-    left: 18%;
-    height: 150px;
-}
-#iconos .enlaces{
+#iconosCentro .enlaces{
     margin: 90px 20px 0px 20px;
     max-height: 44px;
     border-radius: 10px;
     text-decoration: none;
 }
-    /*ESTILOS MENU*/
-#contenedorcentro .divmenu{
+        /*###ESTILOS MENU###*/
+        /*###ESTILOS MENU###*/
+        /*###ESTILOS MENU###*/
+#divmenu{
     float: left;
     width: 100%;
     height: 50px;
     background-color: #091534;
 }
-.menu li {
-    float: left;
-    list-style-type: none;
-    background-color: #091534;
-    width: 20%;
-    border: none;
-    padding:0px;
+#menu a:visited, #menumovil a:visited {
+    color:white
 }
-.menu a{
-    font-size: 15px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    display: block;
-    padding: 17px;
-    padding-right: 0;
-    margin: 0;
-    text-align: center;
-}
-        
-.menu a:link {
+#menu a:link, #menumovil a:link {
     text-decoration: none;
     color: #DBE5FF;
 }
-        
-.menu a:hover {
+#menu a:active, #menumovil a:active{
+    background-color:rgb(42,137,251);
+}
+#menu a:hover, #menumovil a:hover {
     background-color: #DBE5FF;
     color: #091534;
-    }
-.menu {
-    float: left;
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-    width: 50%;
-    height: 50px;
-    }
-.menu a:visited {
-    color:white;
 }
-    /*ESTILOS PIE DE PAGINA*/
+        /*###ESTILOS IMAGEN###*/
+        /*###ESTILOS IMAGEN###*/
+        /*###ESTILOS IMAGEN###*/
+#clasevideo{
+    display: flex;
+    width: 100%;
+}
+.galeria{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    /*###ESTILOS DE LA GALERIA###*/
+    /*###ESTILOS DE LA GALERIA###*/
+    /*###ESTILOS DE LA GALERIA###*/
+#galeria p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.galeria li{ 
+    margin: auto;
+}
+.galeria img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid black
+}
+.galeria img:hover{
+    width: 220px;
+    height: 160px;
+}
+    /*###ESTILOS MODAL###*/
+    /*###ESTILOS MODAL###*/
+    /*###ESTILOS MODAL###*/
+.imagengrande{
+    display: none;
+}
+.imagengrande:target{
+    display: block;
+    position: fixed;
+    background: rgb(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.imagengrande p{
+    font-size: 30px;
+    color: #DBE5FF;
+    text-align: center;
+    margin: 15px 0px;
+}
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.imagen a{
+    color: #DBE5FF;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0px 10px;
+    flex-shrink: 2; /*Sirve para que encaje la imagen y que no choque con el simbolo*/
+}
+.imagen a:nth-child(2){
+    margin: 0px;
+    height: 100%;
+}
+.imagen img {
+    width: 900px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid white;
+    box-sizing: border-box;
+}
+.cerrar{
+    display: block;
+    background-color: #DBE5FF;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+    color: #091534;
+}
+    /*###ESTILOS PIE DE PAGINA###*/
+    /*###ESTILOS PIE DE PAGINA###*/
+    /*###ESTILOS PIE DE PAGINA###*/
 #pie {
     width: 100%;
-    height: 200px;
 }
 #pie .copyright{
     float: right;
     margin-right: 40px;
-    margin-top: 40px;    
+    margin-top: 40px;
 }
-    /*ESTETICA*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+.divmenu{
+  background-color: #091534;  
+}
 #pie{
     background-color: #091534;
     color: #DBE5FF;
     text-align: center;
-        }
-   /*LAYOUT CENTRO*/
-#contenedorcentro {
+}
+#galeria p{
+    color: #091534;
+    text-transform: uppercase;
+}
+.enlaces a:hover{
+    cursor: pointer;
+}
+#facebook{
+    color: #3C5A9A;
+}
+#facebook:visited{
+    color: black;
+}
+#twitter{
+    color: #2DAAE4;
+}
+#twitter:visited{
+    color: black;
+}
+#youtube{
+    color: #FF0015;
+}
+#youtube:visited{
+    color: black;
+}
+#instagram{
+    color: #A843A3;
+}
+#instagram:visited{
+    color: black;
+}
+
+
+
+
+/*###################################CONTACTO##############################*/
+/*###################################CONTACTO##############################*/
+/*###################################CONTACTO##############################*/
+/*###################################CONTACTO##############################*/
+    /*LAYOUT GENERAL*/
+    /*LAYOUT GENERAL*/
+    /*LAYOUT GENERAL*/
+.rellenoC{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3%;
+}
+.formularioC{
     display: flex;
     flex-direction: column;
-    height: 3000px;
+}
+.publicidadC{
+    flex-direction: column;
+    width: 20%;
+    height: 200px;
+    margin: auto;
+    border: 1px solid black;
+}
+    /*###FORMULARIO###*/
+    /*###FORMULARIO###*/
+    /*###FORMULARIO###*/
+input[type=text]{
+    padding: 10px;
+    display: flex;
+    width: 70%;
+}
+input[type=email]{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    width: 70%;
+}
+
+textarea{
+    width: 70%;
+    height: 90px;
+    margin-bottom: 20px;
+}
+input[type=submit],input[type=reset]{
+    width: 30%;
+    height: 50px;
+}
+.numeroC{
+    width: 10%;
+    padding: 4px 10px 4px 10px;
+}
+    /*###PUBLIDICAD###*/
+    /*###PUBLIDICAD###*/
+    /*###PUBLIDICAD###*/
+.publicidadC a{
+    height: 20%;
+    width: 90%;
+    margin-bottom: 1%;
+    margin: auto;
+    display: block;
+}
+.publicidadC img{
+    width: 100%;
+    height: 100%;
+}
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+input[type=text],input[type=email]{
+    border-radius: 10px;
+    background-color: rgba(238, 238, 238, 0.493);
+    color: #787D80;
+    border: none;
+}
+input[type=text]:focus,input[type=email]:focus,textarea:focus,#intereses:focus{
+    background-color: white;
+}
+textarea{
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgba(238, 238, 238, 0.493);
+    color: #787D80;
+    border: none;
+}
+input[type=submit],input[type=reset]{
+    background-color: #091534;
+    color: #F0FDF3;
+    border: 1px rgb(0, 92, 73) solid;
+    font-size: 18px;
+}
+input[type=submit]:hover,input[type=reset]:hover{
+    background-color: #678FFE;
+    cursor: pointer;
+    text-shadow: 1px 1px rgb(0, 107, 86);
+}
+fieldset{
+    border: 0px;
+}
+input[type=radio]{
+    cursor: pointer;
+}
+.numeroC{
+    background-color: #091534;
+    color: #E4FDF8;
+    border-radius: 20px 0px 20px 0px;
+}
+legend{
+    color:black;
+    font-size: 22px;
+}
+optgroup{
+    color: rgb(130,142,151);
+}
+option:hover{
+    background-color: rgb(42,137,251);
+}
+.publicidadC img{
+    border-radius: 30px;
+    border: 2px solid #091534;
+}
+.publicidadC img:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    height: 102%;
+    width: 102%;
+}
+/* ###CENTRO### */
+   /*LAYOUT CENTRO*/
+#contenedorCentro {
+    display: flex;
+    flex-direction: column;
+    height: 3800px;
     width: 100%;
     }
 .divcentral {
@@ -177,6 +684,15 @@ header{
     position: relative;
     align-items: center;
     flex-direction: column;
+}
+iframe {
+    left: 30%;
+    position: relative;
+}
+.calendario {
+    display: inline-block;
+    left: 1%;
+    position: relative;
 }
 .textocentro h1 {
     text-align: center;
