@@ -1,4 +1,178 @@
-/*### ESTILOS COMUNES ###*/
+/*######################RESPONSIVE MOVIL#########################*/
+/*######################RESPONSIVE MOVIL#########################*/
+/*######################RESPONSIVE MOVIL#########################*/
+@media screen and (min-width:0px) and (max-width: 425px) {
+    #iconos{
+        position: absolute;
+        top: 950px ;
+        left: 15%;
+    }
+    #logoytitulo{
+        width: 100%;
+    }
+    #logoytitulo .logo{
+        width: 75px;
+        height: 75px ;
+        margin: auto;
+    }
+    .titulo h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    #pie{
+        font-size: 10px;
+        height: 144px;
+    }
+    /*##########MENU MOVIL###########*/
+    #divmenu{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    #divmenu li{
+        display: block;
+        float: none;
+        height: 50px;
+    }
+    .menu{
+        display: none;
+    }
+    .menumovil{
+        display: none;
+    }
+    .menumovil:target{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: #091534;
+        padding: 0px;
+        margin: 0px;
+    }
+    .menumovil a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    #menumovil .cerrarmenu{
+        display:block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #DBE5FF;
+        font-size: 28px;
+        padding: 0px;
+    }
+    .control-menu{
+        font-size: 40px;
+        color: #DBE5FF;
+        text-align: center;
+        height: 100%;
+    }
+    .control-menu a{
+        display: block;
+        height: 100%;
+    }
+    .control-menu i{
+        position: relative;
+        top: 7px;
+    }
+    /*##############FORMULARIO###################*/
+    .rellenoC{
+        margin: 0px;
+    }
+}
+/*######################RESPONSIVE PC#########################*/
+/*######################RESPONSIVE PC#########################*/
+/*######################RESPONSIVE PC#########################*/
+@media screen and (min-width:426px){
+    /*################HEADER##############*/
+    #iconos{
+        position: relative;
+        left: 18%;
+        height: 150px;
+        font-size: 40px;
+    }
+    #logoytitulo{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        float: left;
+    }
+    #logoytitulo .logo{
+        width: 200px;
+        height: 150px;
+        margin-left: 40px;
+    }
+    .titulo h1{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    #logoytitulo .titulo{
+        position: relative;
+        top: 20%;
+        height: 75%;
+        width: 100%;
+    }
+    /*#######################MENU###################*/
+    /*#######################MENU###################*/
+    /*#######################MENU###################*/
+    #menu li {
+        float: left;
+        list-style-type: none;
+        background-color: #091534;
+        width: 20%;
+        border: none;
+        padding:0px;
+    }
+    #menu a{
+        font-size: 15px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        display: block;
+        padding: 17px;
+        padding-right: 0;
+        margin: 0;
+        text-align: center;
+    }
+    #menu{
+        float: left;
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        width: 50%;
+        height: 50px;
+    }
+    .control-menu{
+        display: none;
+    }
+    #menumovil{
+        display: none;
+    }
+    /*######################FORMULARIO########################*/
+
+/*#####################ESTILOS PIE DE PAGINA####################*/
+/*#####################ESTILOS PIE DE PAGINA####################*/
+/*#####################ESTILOS PIE DE PAGINA####################*/
+    #pie{height: 200px;}
+} /*###########FIN RESPONSIVE PC##############*/
+/*###########FIN RESPONSIVE PC##############*/
+/*###########FIN RESPONSIVE PC##############*/
+
+
+
+
+
+
+/*######################ESTILOS COMUNES#########################*/
+/*######################ESTILOS COMUNES#########################*/
+/*######################ESTILOS COMUNES#########################*/
 body {
     margin: 0px;
     height: 100%;
@@ -6,8 +180,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #DBE5FF;
 }
-    /*LAYOUT*/
-        /*ESTILOS HEADER*/
+    /*###LAYOUT###*/
+    /*###LAYOUT###*/
+    /*###LAYOUT###*/
+        /*###ESTILOS HEADER###*/
+        /*###ESTILOS HEADER###*/
+        /*###ESTILOS HEADER###*/
 header{
     display: flex;
     width: 100%;
@@ -22,35 +200,11 @@ header{
     height: 1400px;
     width: 100%;
 }
-            /*ESTILOS LOGO Y TITULO*/
-#logoytitulo{
+            /*###ESTILOS ICONOS###*/
+            /*###ESTILOS ICONOS###*/
+            /*###ESTILOS ICONOS###*/
+#iconos {
     display: flex;
-    flex-direction: row;
-    width: 50%;
-    float: left;
-}
-#logoytitulo .logo{
-    width: 150px;
-    height: 100%;
-    margin-left: 40px;
-}
-.titulo h1{
-    font-size: 40px;
-    margin-left: 0px;
-}
-#logoytitulo .titulo{
-    position: relative;
-    top: 20%;
-    height: 75%;
-    width: 100%;
-}
-            /*ESTILOS ICONOS*/
-#iconos{
-    display: flex;
-    position: relative;
-    left: 18%;
-    height: 150px;
-    
 }
 #iconos .enlaces{
     margin: 90px 20px 0px 20px;
@@ -58,55 +212,32 @@ header{
     border-radius: 10px;
     text-decoration: none;
 }
-        /*ESTILOS MENU*/
-#contenedor .divmenu{
+        /*###ESTILOS MENU###*/
+        /*###ESTILOS MENU###*/
+        /*###ESTILOS MENU###*/
+#divmenu{
     float: left;
     width: 100%;
     height: 50px;
     background-color: #091534;
 }
-.menu li {
-    float: left;
-    list-style-type: none;
-    background-color: #091534;
-    width: 20%;
-    border: none;
-    padding:0px;
+#menu a:visited, #menumovil a:visited {
+    color:white
 }
-.menu a{
-    font-size: 15px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    display: block;
-    padding: 17px;
-    padding-right: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.menu a:link {
+#menu a:link, #menumovil a:link {
     text-decoration: none;
     color: #DBE5FF;
 }
-
-.menu a:hover {
+#menu a:active, #menumovil a:active{
+    background-color:rgb(42,137,251);
+}
+#menu a:hover, #menumovil a:hover {
     background-color: #DBE5FF;
     color: #091534;
 }
-.menu{
-    float: left;
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-    width: 50%;
-    height: 50px;
-}
-.menu a:visited {
-    color:black
-}
-        /*ESTILOS VIDEO*/
+        /*###ESTILOS IMAGEN###*/
+        /*###ESTILOS IMAGEN###*/
+        /*###ESTILOS IMAGEN###*/
 #clasevideo{
     display: flex;
     width: 100%;
@@ -121,7 +252,9 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-    /*ESTILOS DE LA GALERIA*/
+    /*###ESTILOS DE LA GALERIA###*/
+    /*###ESTILOS DE LA GALERIA###*/
+    /*###ESTILOS DE LA GALERIA###*/
 #galeria p{
     font-size: 30px;
     text-align: center;
@@ -140,7 +273,9 @@ header{
     width: 220px;
     height: 160px;
 }
-    /*ESTILOS MODAL*/
+    /*###ESTILOS MODAL###*/
+    /*###ESTILOS MODAL###*/
+    /*###ESTILOS MODAL###*/
 .imagengrande{
     display: none;
 }
@@ -198,17 +333,20 @@ header{
     line-height: 25px;
     color: #091534;
 }
-    /*ESTILOS PIE DE PAGINA*/
+    /*###ESTILOS PIE DE PAGINA###*/
+    /*###ESTILOS PIE DE PAGINA###*/
+    /*###ESTILOS PIE DE PAGINA###*/
 #pie {
     width: 100%;
-    height: 200px;
 }
 #pie .copyright{
     float: right;
     margin-right: 40px;
     margin-top: 40px;
 }
-    /*ESTETICA*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
 .divmenu{
   background-color: #091534;  
 }
@@ -252,8 +390,13 @@ header{
 
 
 
-/*######CONTACTO######*/
-/*LAYOUT GENERAL*/
+/*###################################CONTACTO##############################*/
+/*###################################CONTACTO##############################*/
+/*###################################CONTACTO##############################*/
+/*###################################CONTACTO##############################*/
+    /*LAYOUT GENERAL*/
+    /*LAYOUT GENERAL*/
+    /*LAYOUT GENERAL*/
 #contenedorC{
     height: 1100px;
     width: 100%;
@@ -280,7 +423,9 @@ header{
     margin: auto;
     border: 1px solid black;
 }
-    /* FORMULARIO*/
+    /*###FORMULARIO###*/
+    /*###FORMULARIO###*/
+    /*###FORMULARIO###*/
 input[type=text]{
     padding: 10px;
     display: flex;
@@ -330,7 +475,9 @@ legend{
     width: 10%;
     padding: 4px 10px 4px 10px;
 }
-    /*PUBLIDICAD*/
+    /*###PUBLIDICAD###*/
+    /*###PUBLIDICAD###*/
+    /*###PUBLIDICAD###*/
 .publicidadC a{
     height: 20%;
     width: 90%;
@@ -342,7 +489,9 @@ legend{
     width: 100%;
     height: 100%;
 }
-/*ESTETICA*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
 input[type=text],input[type=email]{
     border-radius: 10px;
     background-color: rgba(238, 238, 238, 0.493);
