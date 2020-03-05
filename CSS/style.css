@@ -2,7 +2,7 @@
 /*######################RESPONSIVE MOVIL#########################*/
 /*######################RESPONSIVE MOVIL#########################*/
 @media screen and (min-width:0px) and (max-width: 425px) {
-    #iconos{
+    #iconosC{
         position: absolute;
         top: 950px ;
         left: 15%;
@@ -23,6 +23,8 @@
         font-size: 10px;
         height: 144px;
     }
+    /*##########MENU MOVIL###########*/
+    /*##########MENU MOVIL###########*/
     /*##########MENU MOVIL###########*/
     #divmenu{
         width: 100%;
@@ -82,16 +84,49 @@
         top: 7px;
     }
     /*##############FORMULARIO###################*/
-    .rellenoC{
-        margin: 0px;
+    /*##############FORMULARIO###################*/
+    /*##############FORMULARIO###################*/
+    .formularioC{
+        width: 100%;
     }
+    .generoC, .cursandoC{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin: 7px 0px 40px 2px;
+        padding: 10px;
+    }
+    #cursandoC{
+        margin-top: 10px;
+    }
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    .publicidadC{
+        display: none;
+    }
+    .formularioC{
+        width: 100%;
+    }
+    .botonesC{
+        width: 100%;
+        margin:20px;
+        margin-left: 40px;
+    }
+
 }
+
+
+
+
 /*######################RESPONSIVE PC#########################*/
 /*######################RESPONSIVE PC#########################*/
 /*######################RESPONSIVE PC#########################*/
 @media screen and (min-width:426px){
     /*################HEADER##############*/
-    #iconos{
+    /*################HEADER##############*/
+    /*################HEADER##############*/
+    #iconosC{
         position: relative;
         left: 18%;
         height: 150px;
@@ -118,6 +153,11 @@
         height: 75%;
         width: 100%;
     }
+
+
+
+
+
     /*#######################MENU###################*/
     /*#######################MENU###################*/
     /*#######################MENU###################*/
@@ -155,7 +195,48 @@
     #menumovil{
         display: none;
     }
+
+
     /*######################FORMULARIO########################*/
+    /*######################FORMULARIO########################*/
+    /*######################FORMULARIO########################*/
+    .generoC, .cursandoC{
+        display: inline-block;
+        flex-direction: column;
+        width: 40%;
+        margin: 0px;
+    }
+    .genero1C{
+        margin-top: 10px;
+    }
+    #generoC, #cursandoC{
+        display: flex;
+        margin-bottom: 7px;
+        margin: 7px 0px 40px 2px;
+        padding: 10px;
+    }
+    .formularioC{
+        width: 60%;
+    }
+
+
+
+
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    .publicidadC{
+        display: flex;
+    }
+    legend{
+        margin-bottom: 15px;
+    }
+    .botonesC{
+        width: 70%;
+        margin-left: 200px;
+    }
+
+
 
 /*#####################ESTILOS PIE DE PAGINA####################*/
 /*#####################ESTILOS PIE DE PAGINA####################*/
@@ -203,10 +284,10 @@ header{
             /*###ESTILOS ICONOS###*/
             /*###ESTILOS ICONOS###*/
             /*###ESTILOS ICONOS###*/
-#iconos {
+#iconosC {
     display: flex;
 }
-#iconos .enlaces{
+#iconosC .enlaces{
     margin: 90px 20px 0px 20px;
     max-height: 44px;
     border-radius: 10px;
@@ -411,12 +492,10 @@ header{
     margin-left: 3%;
 }
 .formularioC{
-    width: 60%;
     display: flex;
     flex-direction: column;
 }
 .publicidadC{
-    display: flex;
     flex-direction: column;
     width: 20%;
     height: 200px;
@@ -439,37 +518,15 @@ input[type=email]{
     display: flex;
     width: 70%;
 }
-.generoC, .cursandoC{
-    display: inline-block;
-    flex-direction: column;
-    width: 40%;
-    margin: 0px;
-}
-.genero1C{
-    margin-top: 10px;
-}
-#generoC, #cursandoC{
-    display: flex;
-    margin-bottom: 7px;
-    margin: 7px 0px 40px 2px;
-    padding: 10px;
-}
+
 textarea{
     width: 70%;
     height: 90px;
     margin-bottom: 20px;
 }
-.botonesC{
-    width: 70%;
-    margin-left: 200px;
-}
 input[type=submit],input[type=reset]{
     width: 30%;
     height: 50px;
-}
-legend{
-    width: 100%;
-    height: 30px;
 }
 .numeroC{
     width: 10%;
@@ -501,7 +558,6 @@ input[type=text],input[type=email]{
 input[type=text]:focus,input[type=email]:focus,textarea:focus,#intereses:focus{
     background-color: white;
 }
-
 textarea{
     border-radius: 4px;
     padding: 10px;
@@ -509,7 +565,6 @@ textarea{
     color: #787D80;
     border: none;
 }
-
 input[type=submit],input[type=reset]{
     background-color: #091534;
     color: #F0FDF3;
