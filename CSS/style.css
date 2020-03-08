@@ -1,0 +1,602 @@
+/*######################RESPONSIVE MOVIL#########################*/
+/*######################RESPONSIVE MOVIL#########################*/
+/*######################RESPONSIVE MOVIL#########################*/
+@media screen and (min-width:0px) and (max-width: 425px) {
+    #iconosERASMUS{
+        position: absolute;
+        top: 4900px ;
+        left: 11%;
+        font-size: 22px;
+    }
+    #logoytituloERASMUS{
+        width: 100%;
+    }
+    #logoytituloERASMUS .logoERASMUS{
+        width: 75px;
+        height: 75px ;
+        margin: auto;
+    }
+    .tituloERASMUS h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    #pieERASMUS{
+        font-size: 10px;
+        height: 200px;
+    }
+    #contenedorERASMUS{
+        height: 4900px;
+    }
+    /*##########MENU MOVIL###########*/
+    /*##########MENU MOVIL###########*/
+    /*##########MENU MOVIL###########*/
+    #divmenuERASMUS{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    #divmenuERASMUS li{
+        display: block;
+        float: none;
+        height: 50px;
+    }
+    .menuERASMUS{
+        display: none;
+    }
+    .menumovilERASMUS{
+        display: none;
+    }
+    .menumovilERASMUS:target{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: #091534;
+        padding: 0px;
+        margin: 0px;
+    }
+    .menumovilERASMUS a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    #menumovilERASMUS .cerrarmenuERASMUS{
+        display:block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #DBE5FF;
+        font-size: 28px;
+        padding: 0px;
+    }
+    .control-menuERASMUS{
+        font-size: 40px;
+        color: #DBE5FF;
+        text-align: center;
+        height: 100%;
+    }
+    .control-menuERASMUS a{
+        display: block;
+        height: 100%;
+    }
+    .control-menuERASMUS i{
+        position: relative;
+        top: 7px;
+    }
+
+    /*################IMAGEN ESTILOS###############*/
+    /*################IMAGEN ESTILOS###############*/
+    /*################IMAGEN ESTILOS###############*/
+    #clasevideo{
+        height: 300px;
+    }
+
+    /*###############GALERIA#####################*/
+    /*###############GALERIA#####################*/
+    /*###############GALERIA#####################*/
+    .imagengrande:target{
+        display: block;
+        position: fixed;
+        background: rgb(0,0,0,0.8);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80%;
+    }
+}
+
+
+/*######################RESPONSIVE PC#########################*/
+/*######################RESPONSIVE PC#########################*/
+/*######################RESPONSIVE PC#########################*/
+@media screen and (min-width:426px){
+    /*################HEADER##############*/
+    /*################HEADER##############*/
+    /*################HEADER##############*/
+#contenedorERASMUS{
+    height: 1900px;
+}
+    #iconosERASMUS{
+        position: relative;
+        left: 18%;
+        height: 150px;
+        font-size: 40px;
+    }
+    #logoytituloERASMUS{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        float: left;
+    }
+    #logoytituloERASMUS .logoERASMUS{
+        width: 200px;
+        height: 150px;
+        margin-left: 40px;
+    }
+    .tituloERASMUS h1{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    #logoytituloERASMUS .tituloERASMUS{
+        position: relative;
+        top: 20%;
+        height: 75%;
+        width: 100%;
+    }
+
+
+
+
+
+    /*#######################MENU###################*/
+    /*#######################MENU###################*/
+    /*#######################MENU###################*/
+    #menuERASMUS li {
+        float: left;
+        list-style-type: none;
+        background-color: #091534;
+        width: 20%;
+        border: none;
+        padding:0px;
+    }
+    #menuERASMUS a{
+        font-size: 15px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        display: block;
+        padding: 17px;
+        padding-right: 0;
+        margin: 0;
+        text-align: center;
+    }
+    #menuERASMUS{
+        float: left;
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        width: 50%;
+        height: 50px;
+    }
+    .control-menuERASMUS{
+        display: none;
+    }
+    #menumovilERASMUS{
+        display: none;
+    }
+    .imgERASMUS {
+        width: 100%;
+        height: 700px;
+    }
+/*#####################ESTILOS PIE DE PAGINA####################*/
+/*#####################ESTILOS PIE DE PAGINA####################*/
+/*#####################ESTILOS PIE DE PAGINA####################*/
+    #pieERASMUS{
+        height: 200px;
+    }
+    .copyrightERASMUS{
+        text-align: center;
+    }
+} /*###########FIN RESPONSIVE PC##############*/
+/*###########FIN RESPONSIVE PC##############*/
+/*###########FIN RESPONSIVE PC##############*/
+
+@media screen and (min-width:426px) and (max-width: 1024px){
+    #contenedorERASMUS{
+        height: 2300px;
+    }
+    #iconosERASMUS{
+        position: absolute;
+        top: 2350px ;
+        left: 11%;
+        font-size: 22px;
+    }
+}
+
+
+
+
+/*######################ESTILOS COMUNES#########################*/
+/*######################ESTILOS COMUNES#########################*/
+/*######################ESTILOS COMUNES#########################*/
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #DBE5FF;
+}
+    /*###LAYOUT###*/
+    /*###LAYOUT###*/
+    /*###LAYOUT###*/
+        /*###ESTILOS HEADER###*/
+        /*###ESTILOS HEADER###*/
+        /*###ESTILOS HEADER###*/
+header{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    /*position: absolute;
+    top: 40px;*/
+}
+#contenedorERASMUS{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+            /*###ESTILOS ICONOS###*/
+            /*###ESTILOS ICONOS###*/
+            /*###ESTILOS ICONOS###*/
+#iconosERASMUS{
+    display: flex;
+}
+#iconosERASMUS .enlacesERASMUS{
+    margin: 90px 20px 0px 20px;
+    max-height: 44px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+        /*###ESTILOS MENU###*/
+        /*###ESTILOS MENU###*/
+        /*###ESTILOS MENU###*/
+#divmenuERASMUS{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #091534;
+}
+#menuERASMUS a:visited, #menumovilERASMUS a:visited {
+    color:white
+}
+#menuERASMUS a:link, #menumovilERASMUS a:link {
+    text-decoration: none;
+    color: #DBE5FF;
+}
+#menuERASMUS a:active, #menumovilERASMUS a:active{
+    background-color:rgb(42,137,251);
+}
+#menuERASMUS a:hover, #menumovilERASMUS a:hover {
+    background-color: #DBE5FF;
+    color: #091534;
+}
+        /*###ESTILOS IMAGEN###*/
+        /*###ESTILOS IMAGEN###*/
+        /*###ESTILOS IMAGEN###*/
+#clasevideo{
+    display: flex;
+    width: 100%;
+}
+.galeria{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    /*###ESTILOS DE LA GALERIA###*/
+    /*###ESTILOS DE LA GALERIA###*/
+    /*###ESTILOS DE LA GALERIA###*/
+#galeria p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.galeria li{ 
+    margin: auto;
+}
+.galeria img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid black
+}
+.galeria img:hover{
+    width: 220px;
+    height: 160px;
+}
+    /*###ESTILOS MODAL###*/
+    /*###ESTILOS MODAL###*/
+    /*###ESTILOS MODAL###*/
+.imagengrande{
+    display: none;
+}
+.imagengrande:target{
+    display: block;
+    position: fixed;
+    background: rgb(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.imagengrande p{
+    font-size: 30px;
+    color: #DBE5FF;
+    text-align: center;
+    margin: 15px 0px;
+}
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.imagen a{
+    color: #DBE5FF;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0px 10px;
+    flex-shrink: 2; /*Sirve para que encaje la imagen y que no choque con el simbolo*/
+}
+.imagen a:nth-child(2){
+    margin: 0px;
+    height: 100%;
+}
+.imagen img {
+    width: 600px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid white;
+    box-sizing: border-box;
+}
+.cerrar{
+    display: block;
+    background-color: #DBE5FF;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+    color: #091534;
+}
+    /*###ESTILOS PIE DE PAGINA###*/
+    /*###ESTILOS PIE DE PAGINA###*/
+    /*###ESTILOS PIE DE PAGINA###*/
+#footer {
+    width: 100%;
+}
+#pieERASMUS .copyrightERASMUS{
+    float: right;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+.divmenuERASMUS{
+  background-color: #091534;  
+}
+#pieERASMUS{
+    background-color: #091534;
+    color: #DBE5FF;
+    text-align: center;
+}
+#galeria p{
+    color: #091534;
+    text-transform: uppercase;
+}
+.enlaces a:hover{
+    cursor: pointer;
+}
+#facebook{
+    color: #3C5A9A;
+}
+#facebook:visited{
+    color: rgb(0, 0, 0);
+}
+#twitter{
+    color: #2DAAE4;
+}
+#twitter:visited{
+    color: rgb(0, 0, 0);
+}
+#youtube{
+    color: #FF0015;
+}
+#youtube:visited{
+    color: rgb(0, 0, 0);
+}
+#instagram{
+    color: #A843A3;
+}
+#instagram:visited{
+    color: rgb(0, 0, 0);
+}
+
+
+/*###################ESTILOS ERASMUS###############*/
+/*###################ESTILOS ERASMUS###############*/
+/*###################ESTILOS ERASMUS###############*/
+#rellenoERASMUS{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.datosERASMUS, .publicidadERASMUS{
+    margin-left: 40px;
+}
+.datosERASMUS{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+.datosERASMUS p{
+    text-align: center;
+}
+.datosERASMUS h1{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+.datosERASMUS h2{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+/*######################PUBLICIDAD ERASMUS################*/
+/*######################PUBLICIDAD ERASMUS################*/
+/*######################PUBLICIDAD ERASMUS################*/
+.publicidadERASMUS img{
+    border-radius: 30px;
+    border: 2px solid #091534;
+}
+.publicidadERASMUS img:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    height: 102%;
+    width: 102%;
+}
+.publicidadERASMUS a{
+    height: 20%;
+    width: 90%;
+    margin-bottom: 1%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+.publicidadERASMUS img{
+    width: 100%;
+    height: 100%;
+}
+.publicidadERASMUS{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+	/*###################ESTILOS IMAGEN##############*/
+        /*###################ESTILOS IMAGEN##############*/
+        /*###################ESTILOS IMAGEN##############*/
+#clasevideo{
+    display: flex;
+    width: 100%;
+}
+.galeria{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    /*###################ESTILOS DE LA GALERIA##################*/
+    /*###################ESTILOS DE LA GALERIA##################*/
+    /*###################ESTILOS DE LA GALERIA##################*/
+#galeria p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.galeria li{ 
+    margin: auto;
+}
+.galeria img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid black
+}
+.galeria img:hover{
+    width: 220px;
+    height: 160px;
+}
+    /*#####################ESTILOS MODAL#######################*/
+    /*#####################ESTILOS MODAL#######################*/
+    /*#####################ESTILOS MODAL#######################*/
+.imagengrande{
+    display: none;
+}
+.imagengrande:target{
+    display: block;
+    position: fixed;
+    background: rgb(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.imagengrande p{
+    font-size: 30px;
+    color: #DBE5FF;
+    text-align: center;
+    margin: 15px 0px;
+}
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.imagen a{
+    color: #DBE5FF;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0px 10px;
+    flex-shrink: 2; /*Sirve para que encaje la imagen y que no choque con el simbolo*/
+}
+.imagen a:nth-child(2){
+    margin: 0px;
+    height: 100%;
+}
+.imagen img {
+    width: 900px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid white;
+    box-sizing: border-box;
+}
+.cerrar{
+    display: block;
+    background-color: #DBE5FF;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+    color: #091534;
+}
