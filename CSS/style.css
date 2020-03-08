@@ -129,7 +129,7 @@
     .divizquierdo {
         visibility: hidden;
     }
-    .divcentro {
+    .divoferta {
         font-size: 15px;
     }
     iframe {
@@ -626,6 +626,95 @@ option:hover{
     border-radius: 30px;
     height: 102%;
     width: 102%;
+}
+/* ###OFERTA### */
+    /*LAYOUT OFERTA*/
+#contenedorOferta {
+    display: flex;
+    flex-direction: column;
+    height: 3800px;
+    width: 100%;    
+}
+.publicidadoferta {
+    float: left;
+    width: 20%;
+    height: 200px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    position:sticky;
+}
+.divcentraloferta {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    float: left;
+    display: flex;
+}
+.divofertas {
+    float: left;
+    width: 80%;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.oferta {
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 5px;
+    width: 90%;
+    height: 13%;
+    float: left;
+    display: flex;
+    position: relative;
+}
+.ofertas h1 {
+    margin:0;
+}
+.publicidadoferta a{
+    height: 20%;
+    width: 90%;
+    margin-bottom: 1%;
+    margin: auto;
+    display: block;
+}
+.publicidadoferta img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 2px solid #091534;
+}
+.publicidadoferta img:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    height: 102%;
+    width: 102%;
+}
+.bachi {
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 5px;
+    width: 90%;
+    height: 20%;
+    float: left;
+    display: flex;
+    position: relative;
+}
+/* ESTILOS OFERTA */
+.oferta {
+    border: 3px solid #091534;
+}
+.ofertas {
+    list-style: none;
+}
+td {
+    padding: 10px;
+}
+.bachi {
+    border: 3px solid #091534;
 }
 /* ###CENTRO### */
    /*LAYOUT CENTRO*/
