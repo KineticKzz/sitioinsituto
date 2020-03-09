@@ -129,9 +129,6 @@
     .divizquierdo {
         visibility: hidden;
     }
-    .divoferta {
-        font-size: 15px;
-    }
     iframe {
         width: 150px;
         height: 150px;
@@ -145,7 +142,23 @@
         width: 300px;
         height: 300px;
     }
-
+    /*#####OFERTA#####*/
+    .divoferta {
+        font-size: 15px;
+    }
+    .divcentraloferta {
+        height:3000px;
+    }
+    #contenedoroferta{
+        height:2000px;
+    }
+    .bachi {
+        display:none;
+        visibility: hidden;
+    }
+    .oferta{
+        height:3000px;
+    }
 }
 
 
@@ -163,6 +176,10 @@
         left: 18%;
         height: 150px;
         font-size: 40px;
+    }
+    .titulo h1 a {
+        text-decoration: none;
+        color: #091534;
     }
     #logoytitulo{
         display: flex;
@@ -185,10 +202,6 @@
         height: 75%;
         width: 100%;
     }
-
-
-
-
 
     /*#######################MENU###################*/
     /*#######################MENU###################*/
@@ -267,7 +280,17 @@
         width: 70%;
         margin-left: 200px;
     }
-
+    /*###############OFERTAS##########*/
+    .bachi {
+        margin-top: 40px;
+        margin-left: 40px;
+        padding: 5px;
+        width: 90%;
+        height: 25%;
+        float: left;
+        display: flex;
+        position: relative;
+    }
 
 
 /*#####################ESTILOS PIE DE PAGINA####################*/
@@ -632,7 +655,7 @@ option:hover{
 #contenedorOferta {
     display: flex;
     flex-direction: column;
-    height: 3800px;
+    height: 3000px;
     width: 100%;    
 }
 .publicidadoferta {
@@ -644,7 +667,7 @@ option:hover{
     align-items: center;
     flex-direction: column;
     top: 50%;
-    position:sticky;
+    position: sticky;
 }
 .divcentraloferta {
     width: 100%;
@@ -666,10 +689,10 @@ option:hover{
     margin-left: 40px;
     padding: 5px;
     width: 90%;
-    height: 13%;
+    height: 20%;
     float: left;
     display: flex;
-    position: relative;
+    flex-direction: column;
 }
 .ofertas h1 {
     margin:0;
@@ -698,12 +721,12 @@ option:hover{
     margin-left: 40px;
     padding: 5px;
     width: 90%;
-    height: 20%;
+    height: 25%;
     float: left;
     display: flex;
     position: relative;
 }
-/* ESTILOS OFERTA */
+/* ESTILOS OFERTA */                                
 .oferta {
     border: 3px solid #091534;
 }
@@ -718,10 +741,10 @@ td {
 }
 /* ###CENTRO### */
    /*LAYOUT CENTRO*/
-#contenedorCentro {
+#contenedoroferta {
     display: flex;
     flex-direction: column;
-    height: 3800px;
+    height: 3000px;
     width: 100%;
     }
 .divcentral {
