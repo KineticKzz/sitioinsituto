@@ -215,6 +215,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #DBE5FF;
 }
+.tituloINICIO a{
+    text-decoration: none;
+}.tituloINICIO a:visited{
+    color: #091534;
+    text-decoration: none;
+}
+.logoINICIO a{
+    text-decoration: none;
+}.logoINICIO a:visited{
+    color: #091534;
+    text-decoration: none;
+}
     /*###LAYOUT###*/
     /*###LAYOUT###*/
     /*###LAYOUT###*/
@@ -302,7 +314,7 @@ header{
     width: 200px;
     height: 150px;
     border-radius: 20px;
-    border: 3px solid black
+    border: 3px solid black;
 }
 .galeria img:hover{
     width: 220px;
