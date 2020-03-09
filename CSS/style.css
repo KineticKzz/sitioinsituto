@@ -215,6 +215,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #DBE5FF;
 }
+.tituloINICIO a{
+    text-decoration: none;
+}.tituloINICIO a:visited{
+    color: #091534;
+    text-decoration: none;
+}
     /*###LAYOUT###*/
     /*###LAYOUT###*/
     /*###LAYOUT###*/
