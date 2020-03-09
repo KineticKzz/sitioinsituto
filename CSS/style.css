@@ -231,6 +231,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #DBE5FF;
 }
+.tituloERASMUS a{
+    text-decoration: none;
+}
+.tituloERASMUS a:visited{
+    color: #091534;
+    text-decoration: none;
+}
     /*###LAYOUT###*/
     /*###LAYOUT###*/
     /*###LAYOUT###*/
