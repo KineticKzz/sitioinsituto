@@ -192,6 +192,23 @@
         width: 100%;
         height: 80%;
     }
+    /*#################PORTADA##################*/
+    /*#################PORTADA##################*/
+    /*#################PORTADA##################*/
+    .hero{
+        width: 100%;
+        height: 365px;
+    }
+    .hero_frase {
+        font-size: 18px;
+    }
+    .hero_boton {
+        font-size: 20px;
+        height:50px;
+    }
+    .hero_texto {
+        padding: 0;
+    }
 }
 
 
@@ -324,6 +341,22 @@
     }
     .copyright{
         text-align: center;
+    }
+    /*#####################PORTADA#################*/
+    /*#####################PORTADA#################*/
+    /*#####################PORTADA#################*/
+    .hero{
+        height: 100vh;
+    }
+    .hero_frase {
+        font-size: 25px;
+    }
+    .hero_boton {
+        font-size: 30px;
+        height:70px;
+    }
+    .hero_texto {
+        padding: 0;
     }
 } 
     /*###########FIN RESPONSIVE PC##############*/
@@ -848,4 +881,46 @@ option:hover{
     border-radius: 30px;
     height: 102%;
     width: 102%;
+}
+
+/*### ESTILOS PORTADA ###*/
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_imagen{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    filter: blur(3px);
+}
+.hero_texto{
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+.hero_boton a{
+    text-decoration: none;
+}
+.hero_boton {
+    display: inline-block;
+    width: 40%;
+    background-color: #DBE5FF;
+    color: #091534;
+    border-radius: 0px 30px 0px 30px;
+    opacity: 0.6;
+    border-color: #DBE5FF;
+}
+.hero_frase {
+    color: #091534;
+}
+.hero_boton:hover {
+    cursor: pointer;
+    background-color: #091534;
+    color: #DBE5FF;
 }
