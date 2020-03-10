@@ -1,49 +1,90 @@
 /*######################RESPONSIVE MOVIL#########################*/
 /*######################RESPONSIVE MOVIL#########################*/
 /*######################RESPONSIVE MOVIL#########################*/
-@media screen and (min-width:0px) and (max-width: 425px) {
-    #iconosINICIO{
-        position: absolute;
-        top: 435px ;
-        left: 11%;
-        font-size: 22px;
+@media screen and (min-width:0px) and (max-width: 320px){
+    #iconos{
+        left: 10%;
     }
-    #logoytituloINICIO{
+    .iconosINICIO{
+        top: 490%;
+    }
+    .iconosCONTACTO{
+        top: 270%;
+    }
+}
+@media screen and (min-width:321px) and (max-width: 375px){
+    #iconos{
+        left: 20%;
+    }
+    .iconosINICIO{
+        top: 490%;
+    }
+    .iconosCONTACTO{
+        top: 267%;
+    }
+}
+@media screen and (min-width:376px) and (max-width: 425px){
+    #iconos{
+        left: 23%;
+    }
+    .iconosINICIO{
+        top: 480%;
+    }
+    .iconosCONTACTO{
+        top: 268%;
+    }
+}
+@media screen and (min-width:0px) and (max-width: 425px) {
+    #contenedorC{
+        height: 1000px;
+    }
+    #logoytitulo{
         width: 100%;
     }
-    #logoytituloINICIO .logoINICIO{
+    #iconos{
+        position: absolute; 
+        font-size: 15px;
+        margin: 0px;
+    }
+    #logoytitulo{
+        width: 100%;
+    }
+    #logoytitulo .logo{
         width: 75px;
         height: 75px ;
         margin: auto;
     }
-    .tituloINICIO h1{
+    .titulo h1{
         font-size: 25px;
         text-align: center;
     }
-    #pieINICIO{
+    footer{
         font-size: 10px;
-        height: 200px;
+        height: 120px;
+    }
+    footer .copyright{
+        padding-top: 15px;
     }
     /*##########MENU MOVIL###########*/
     /*##########MENU MOVIL###########*/
     /*##########MENU MOVIL###########*/
-    #divmenuINICIO{
+    #divmenu{
         width: 100%;
         height: 100%;
         margin: 0px;
     }
-    #divmenuINICIO li{
+    #divmenu li{
         display: block;
         float: none;
         height: 50px;
     }
-    .menuINICIO{
+    .menu{
         display: none;
     }
-    .menumovilINICIO{
+    .menumovil{
         display: none;
     }
-    .menumovilINICIO:target{
+    .menumovil:target{
         display: flex;
         flex-direction: column;
         position: fixed;
@@ -53,14 +94,14 @@
         padding: 0px;
         margin: 0px;
     }
-    .menumovilINICIO a{
+    .menumovil a{
         display: block;
         padding: 10px;
         text-decoration: none;
         text-transform: uppercase;
         width: 100%;
     }
-    #menumovilINICIO .cerrarmenuINICIO{
+    #menumovil .cerrarmenu{
         display:block;
         width: 100%;
         text-align: center;
@@ -70,21 +111,52 @@
         font-size: 28px;
         padding: 0px;
     }
-    .control-menuINICIO{
+    .control-menu{
         font-size: 40px;
         color: #DBE5FF;
         text-align: center;
         height: 100%;
     }
-    .control-menuINICIO a{
+    .control-menu a{
         display: block;
         height: 100%;
     }
-    .control-menuINICIO i{
+    .control-menu i{
         position: relative;
         top: 7px;
     }
+    /*##############FORMULARIO###################*/
+    /*##############FORMULARIO###################*/
+    /*##############FORMULARIO###################*/
+    .formularioC{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .generoC, .cursandoC{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin: 7px 0px 40px 2px;
+        padding: 10px;
+    }
+    #cursandoC{
+        margin-top: 10px;
+    }
+    .formularioC{
+        width: 100%;
+    }
+    .botonesC{
+        width: 100%;
+        margin:20px;
+        margin-left: 40px;
+    }
 
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    .publicidadC{
+        display: none;
+    }
     /*################IMAGEN ESTILOS###############*/
     /*################IMAGEN ESTILOS###############*/
     /*################IMAGEN ESTILOS###############*/
@@ -111,45 +183,43 @@
 /*######################RESPONSIVE PC#########################*/
 /*######################RESPONSIVE PC#########################*/
 @media screen and (min-width:426px){
+    #contenedorC{
+        height: 1000px;
+    }
     /*################HEADER##############*/
     /*################HEADER##############*/
     /*################HEADER##############*/
-    #iconosINICIO{
+    #iconos{
         position: relative;
         left: 18%;
         height: 150px;
         font-size: 40px;
     }
-    #logoytituloINICIO{
+    #logoytitulo{
         display: flex;
         flex-direction: row;
         width: 50%;
         float: left;
     }
-    #logoytituloINICIO .logoINICIO{
+    #logoytitulo .logo{
         width: 200px;
         height: 150px;
         margin-left: 40px;
     }
-    .tituloINICIO h1{
+    .titulo h1{
         font-size: 40px;
         margin-left: 0px;
     }
-    #logoytituloINICIO .tituloINICIO{
+    #logoytitulo .titulo{
         position: relative;
         top: 20%;
         height: 75%;
         width: 100%;
     }
-
-
-
-
-
     /*#######################MENU###################*/
     /*#######################MENU###################*/
     /*#######################MENU###################*/
-    #menuINICIO li {
+    #menu li {
         float: left;
         list-style-type: none;
         background-color: #091534;
@@ -157,7 +227,7 @@
         border: none;
         padding:0px;
     }
-    #menuINICIO a{
+    #menu a{
         font-size: 15px;
         font-weight: bolder;
         text-transform: uppercase;
@@ -167,7 +237,7 @@
         margin: 0;
         text-align: center;
     }
-    #menuINICIO{
+    #menu{
         float: left;
         display: flex;
         flex-direction: row;
@@ -177,32 +247,63 @@
         width: 50%;
         height: 50px;
     }
-    .control-menuINICIO{
+    .control-menu{
         display: none;
     }
-    #menumovilINICIO{
+    #menumovil{
         display: none;
     }
-    .imginicio {
+    .img {
         width: 100%;
         height: 700px;
     }
-/*#####################ESTILOS PIE DE PAGINA####################*/
-/*#####################ESTILOS PIE DE PAGINA####################*/
-/*#####################ESTILOS PIE DE PAGINA####################*/
-    #pieINICIO{
-        height: 200px;
+    /*######################FORMULARIO########################*/
+    /*######################FORMULARIO########################*/
+    /*######################FORMULARIO########################*/
+    .generoC, .cursandoC{
+        display: inline-block;
+        flex-direction: column;
+        width: 40%;
+        margin: 0px;
     }
-    .copyrightINICIO{
+    .genero1C{
+        margin-top: 10px;
+    }
+    #generoC, #cursandoC{
+        display: flex;
+        margin-bottom: 7px;
+        margin: 7px 0px 40px 2px;
+        padding: 10px;
+    }
+    .formularioC{
+        width: 60%;
+    }
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    /*###############PUBLICIDAD###################*/
+    .publicidadC{
+        display: flex;
+    }
+    legend{
+        margin-bottom: 15px;
+    }
+    .botonesC{
+        width: 70%;
+        margin-left: 200px;
+    }
+    /*#####################ESTILOS PIE DE PAGINA####################*/
+    /*#####################ESTILOS PIE DE PAGINA####################*/
+    /*#####################ESTILOS PIE DE PAGINA####################*/
+    #pie{
+        height: 130px;
+    }
+    .copyright{
         text-align: center;
     }
-} /*###########FIN RESPONSIVE PC##############*/
-/*###########FIN RESPONSIVE PC##############*/
-/*###########FIN RESPONSIVE PC##############*/
-
-
-
-
+} 
+    /*###########FIN RESPONSIVE PC##############*/
+    /*###########FIN RESPONSIVE PC##############*/
+    /*###########FIN RESPONSIVE PC##############*/
 
 
 /*######################ESTILOS COMUNES#########################*/
@@ -215,9 +316,9 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #DBE5FF;
 }
-.tituloINICIO a{
+.titulo a{
     text-decoration: none;
-}.tituloINICIO a:visited{
+}.titulo a:visited{
     color: #091534;
     text-decoration: none;
 }
@@ -235,7 +336,7 @@ header{
     /*position: absolute;
     top: 40px;*/
 }
-#contenedorINICIO{
+#contenedor{
     display: flex;
     flex-direction: column;
     height: 1400px;
@@ -244,10 +345,10 @@ header{
             /*###ESTILOS ICONOS###*/
             /*###ESTILOS ICONOS###*/
             /*###ESTILOS ICONOS###*/
-#iconosINICIO{
+#iconos{
     display: flex;
 }
-#iconosINICIO .enlacesINICIO{
+#iconos .enlaces{
     margin: 90px 20px 0px 20px;
     max-height: 44px;
     border-radius: 10px;
@@ -256,23 +357,23 @@ header{
         /*###ESTILOS MENU###*/
         /*###ESTILOS MENU###*/
         /*###ESTILOS MENU###*/
-#divmenuINICIO{
+#divmenu{
     float: left;
     width: 100%;
     height: 50px;
     background-color: #091534;
 }
-#menuINICIO a:visited, #menumovilINICIO a:visited {
+#menu a:visited, #menumovil a:visited {
     color:white
 }
-#menuINICIO a:link, #menumovilINICIO a:link {
+#menu a:link, #menumovil a:link {
     text-decoration: none;
     color: #DBE5FF;
 }
-#menuINICIO a:active, #menumovilINICIO a:active{
+#menu a:active, #menumovil a:active{
     background-color:rgb(42,137,251);
 }
-#menuINICIO a:hover, #menumovilINICIO a:hover {
+#menu a:hover, #menumovil a:hover {
     background-color: #DBE5FF;
     color: #091534;
 }
@@ -377,23 +478,21 @@ header{
     /*###ESTILOS PIE DE PAGINA###*/
     /*###ESTILOS PIE DE PAGINA###*/
     /*###ESTILOS PIE DE PAGINA###*/
-#footer {
+footer {
     width: 100%;
-}
-#pieINICIO .copyrightINICIO{
-    float: right;
-    
-}
-    /*###ESTETICA###*/
-    /*###ESTETICA###*/
-    /*###ESTETICA###*/
-.divmenuINICIO{
-  background-color: #091534;  
-}
-#pieINICIO{
     background-color: #091534;
     color: #DBE5FF;
     text-align: center;
+}
+footer .copyright{
+    float: right;
+    margin-right: 40px;
+}
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+.divmenu{
+  background-color: #091534;  
 }
 #galeria p{
     color: #091534;
@@ -428,9 +527,10 @@ header{
 }
 
 
-/*###################ESTILOS INICIO###############*/
-/*###################ESTILOS INICIO###############*/
-/*###################ESTILOS INICIO###############*/
+
+/*###################ESTILOS ###############*/
+/*###################ESTILOS ###############*/
+/*###################ESTILOS ###############*/
 
 
 
@@ -440,6 +540,7 @@ header{
 #clasevideo{
     display: flex;
     width: 100%;
+    height: 500px;
 }
 .galeria{
     width: 90%;
@@ -531,4 +632,143 @@ header{
     border-radius: 50%;
     line-height: 25px;
     color: #091534;
+}
+
+
+/*###################################CONTACTO##############################*/
+/*###################################CONTACTO##############################*/
+/*###################################CONTACTO##############################*/
+/*###################################CONTACTO##############################*/
+    /*LAYOUT GENERAL*/
+    /*LAYOUT GENERAL*/
+    /*LAYOUT GENERAL*/
+#contenedor{
+    height: 100%;
+}
+#contenedorC{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.rellenoC{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3%;
+}
+.formularioC{
+    display: flex;
+    flex-direction: column;
+}
+.publicidadC{
+    flex-direction: column;
+    width: 20%;
+    height: 200px;
+    margin: auto;
+    
+}
+    /*###FORMULARIO###*/
+    /*###FORMULARIO###*/
+    /*###FORMULARIO###*/
+input[type=text]{
+    padding: 10px;
+    display: flex;
+    width: 70%;
+}
+input[type=email]{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    width: 70%;
+}
+
+textarea{
+    width: 70%;
+    height: 90px;
+    margin-bottom: 20px;
+}
+input[type=submit],input[type=reset]{
+    width: 30%;
+    height: 50px;
+}
+.numeroC{
+    width: 10%;
+    padding: 4px 10px 4px 10px;
+}
+    /*###PUBLIDICAD###*/
+    /*###PUBLIDICAD###*/
+    /*###PUBLIDICAD###*/
+.publicidadC a{
+    height: 20%;
+    width: 90%;
+    margin-bottom: 1%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+.publicidadC img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 2px solid #091534;
+}
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+    /*###ESTETICA###*/
+input[type=text],input[type=email]{
+    border-radius: 10px;
+    background-color: rgba(238, 238, 238, 0.493);
+    color: #787D80;
+    border: none;
+}
+input[type=text]:focus,input[type=email]:focus,textarea:focus,#intereses:focus{
+    background-color: white;
+}
+textarea{
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgba(238, 238, 238, 0.493);
+    color: #787D80;
+    border: none;
+}
+input[type=submit],input[type=reset]{
+    background-color: #091534;
+    color: #F0FDF3;
+    border: 1px rgb(0, 92, 73) solid;
+    font-size: 18px;
+}
+input[type=submit]:hover,input[type=reset]:hover{
+    background-color: #678FFE;
+    cursor: pointer;
+    text-shadow: 1px 1px rgb(0, 107, 86);
+}
+fieldset{
+    border: 0px;
+}
+input[type=radio]{
+    cursor: pointer;
+}
+.numeroC{
+    background-color: #091534;
+    color: #E4FDF8;
+    border-radius: 20px 0px 20px 0px;
+}
+legend{
+    color:black;
+    font-size: 22px;
+}
+optgroup{
+    color: rgb(130,142,151);
+}
+option:hover{
+    background-color: rgb(42,137,251);
+}
+.publicidadC img:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    height: 102%;
+    width: 102%;
 }
