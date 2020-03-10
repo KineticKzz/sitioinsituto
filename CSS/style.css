@@ -4,10 +4,12 @@
 @media screen and (min-width:0px) and (max-width: 320px){
     #contenedoroferta{
         height:4700px;
-    }  
+    }
 }
 @media screen and (min-width:321px) and (max-width: 375px){
-
+    #contenedoroferta{
+        height:4100px;
+    }
 }
 @media screen and (min-width:376px) and (max-width: 425px){
     #contenedoroferta{
