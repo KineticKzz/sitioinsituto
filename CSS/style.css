@@ -1,11 +1,26 @@
 /*######################RESPONSIVE MOVIL#########################*/
 /*######################RESPONSIVE MOVIL#########################*/
 /*######################RESPONSIVE MOVIL#########################*/
+@media screen and (min-width:0px) and (max-width: 320px){
+    #contenedoroferta{
+        height:4700px;
+    }  
+}
+@media screen and (min-width:321px) and (max-width: 375px){
+
+}
+@media screen and (min-width:376px) and (max-width: 425px){
+    #contenedoroferta{
+        height:3550px;
+    }
+}
 @media screen and (min-width:0px) and (max-width: 425px) {
     #iconosCentro{
         position: absolute;
-        top: 3650px ;
         left: 25%;
+    }
+    .iconosOFERTA{
+        top: 568%;
     }
     #logoytitulo{
         width: 100%;
@@ -146,18 +161,25 @@
     .divoferta {
         font-size: 15px;
     }
-    .divcentraloferta {
-        height:3000px;
-    }
-    #contenedoroferta{
-        height:2000px;
-    }
     .bachi {
         display:none;
         visibility: hidden;
+        height: 0%;
     }
-    .oferta{
-        height:3000px;
+    .bachimovil {
+        border: 3px solid black;
+        margin-top: 40px;
+        margin-left: 40px;
+        padding: 0;
+        width: 90%;
+        height: 80px;
+    
+    }
+    .bachimovil a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        margin: 0;
     }
 }
 
@@ -176,6 +198,12 @@
         left: 18%;
         height: 150px;
         font-size: 40px;
+    }
+    .iconosOFERTA{
+        position: relative;
+        left: 18%;
+        height: 150px;
+        font-size: 40px; 
     }
     .titulo h1 a {
         text-decoration: none;
@@ -201,6 +229,9 @@
         top: 20%;
         height: 75%;
         width: 100%;
+    }
+    #contenedoroferta {
+        height: 3000px;
     }
 
     /*#######################MENU###################*/
@@ -286,10 +317,13 @@
         margin-left: 40px;
         padding: 5px;
         width: 90%;
-        height: 25%;
-        float: left;
         display: flex;
-        position: relative;
+    }
+    .divofertas {
+        display: flex;
+    }
+    .bachimovil {
+        display:none;
     }
 
 
@@ -655,7 +689,6 @@ option:hover{
 #contenedorOferta {
     display: flex;
     flex-direction: column;
-    height: 3000px;
     width: 100%;    
 }
 .publicidadoferta {
@@ -671,17 +704,15 @@ option:hover{
 }
 .divcentraloferta {
     width: 100%;
-    height: 100%;
     margin: 0;
-    float: left;
+    height: 100%;
     display: flex;
 }
 .divofertas {
-    float: left;
     width: 80%;
+    display: flex;
     height: 100%;
     margin-top: 0px;
-    display: flex;
     flex-direction: column;
 }
 .oferta {
@@ -689,10 +720,6 @@ option:hover{
     margin-left: 40px;
     padding: 5px;
     width: 90%;
-    height: 20%;
-    float: left;
-    display: flex;
-    flex-direction: column;
 }
 .ofertas h1 {
     margin:0;
@@ -716,16 +743,6 @@ option:hover{
     height: 102%;
     width: 102%;
 }
-.bachi {
-    margin-top: 40px;
-    margin-left: 40px;
-    padding: 5px;
-    width: 90%;
-    height: 25%;
-    float: left;
-    display: flex;
-    position: relative;
-}
 /* ESTILOS OFERTA */                                
 .oferta {
     border: 3px solid #091534;
@@ -744,7 +761,6 @@ td {
 #contenedoroferta {
     display: flex;
     flex-direction: column;
-    height: 3000px;
     width: 100%;
     }
 .divcentral {
