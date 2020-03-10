@@ -11,6 +11,9 @@
     .iconosCONTACTO{
         top: 270%;
     }
+    .iconosERASMUS{
+        top: 875%;
+    }
 }
 @media screen and (min-width:321px) and (max-width: 375px){
     #iconos{
@@ -21,6 +24,9 @@
     }
     .iconosCONTACTO{
         top: 267%;
+    }
+    .iconosERASMUS{
+        top: 748%;
     }
 }
 @media screen and (min-width:376px) and (max-width: 425px){
@@ -33,8 +39,12 @@
     .iconosCONTACTO{
         top: 268%;
     }
+    .iconosERASMUS{
+        top: 685%;
+    }
 }
 @media screen and (min-width:0px) and (max-width: 425px) {
+
     #contenedorC{
         height: 1000px;
     }
@@ -64,6 +74,12 @@
     }
     footer .copyright{
         padding-top: 15px;
+    }
+    #contenedorERASMUS{
+        height: 4900px;
+    }
+    .datosERASMUS{
+        width: 100%;
     }
     /*##########MENU MOVIL###########*/
     /*##########MENU MOVIL###########*/
@@ -291,6 +307,15 @@
         width: 70%;
         margin-left: 200px;
     }
+    /*#####################ERASMUS###################*/
+    /*#####################ERASMUS###################*/
+    /*#####################ERASMUS###################*/
+    .datosERASMUS{
+        width: 60%;
+    }
+    .datosERASMUS, .publicidadERASMUS{
+        margin-left: 40px;
+    }
     /*#####################ESTILOS PIE DE PAGINA####################*/
     /*#####################ESTILOS PIE DE PAGINA####################*/
     /*#####################ESTILOS PIE DE PAGINA####################*/
@@ -339,7 +364,6 @@ header{
 #contenedor{
     display: flex;
     flex-direction: column;
-    height: 1400px;
     width: 100%;
 }
             /*###ESTILOS ICONOS###*/
@@ -527,12 +551,65 @@ footer .copyright{
 }
 
 
-
-/*###################ESTILOS ###############*/
-/*###################ESTILOS ###############*/
-/*###################ESTILOS ###############*/
-
-
+/*###################ESTILOS ERASMUS###############*/
+/*###################ESTILOS ERASMUS###############*/
+/*###################ESTILOS ERASMUS###############*/
+#rellenoERASMUS{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.datosERASMUS{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.datosERASMUS p{
+    text-align: center;
+}
+.datosERASMUS h1{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+.datosERASMUS h2{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+/*######################PUBLICIDAD ERASMUS################*/
+/*######################PUBLICIDAD ERASMUS################*/
+/*######################PUBLICIDAD ERASMUS################*/
+.publicidadERASMUS img{
+    border-radius: 30px;
+    border: 2px solid #091534;
+}
+.publicidadERASMUS img:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    height: 102%;
+    width: 102%;
+}
+.publicidadERASMUS a{
+    height: 20%;
+    width: 90%;
+    margin-bottom: 1%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+.publicidadERASMUS img{
+    width: 100%;
+    height: 100%;
+}
+.publicidadERASMUS{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
 
 	/*###################ESTILOS IMAGEN##############*/
         /*###################ESTILOS IMAGEN##############*/
